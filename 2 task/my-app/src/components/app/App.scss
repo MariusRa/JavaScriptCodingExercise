@@ -1,0 +1,51 @@
+.container {
+    margin: 40px;
+    width: 542px;
+    height: 102px;
+    font-family: "TT Hoves Variable",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.231;
+    background-color: #fafbfc;
+
+    .header {
+        height: 18px;
+        background-color: #fafbfc;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+        .headerTitle {
+            font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #212a30;
+            height: 18px;
+            margin-right: 12px;
+        }
+        
+        .reset {
+            font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #079;
+            cursor: pointer;
+        }
+    }
+    .carFilter {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+
+
+
+
