@@ -1,0 +1,16 @@
+.title {
+    font-weight: bold;
+}
+.styleF, .styleN {
+    margin-top: 0;
+    width: 75px;
+    margin-right: 5px;
+}
+.p-freq, .p-value {
+    margin-top: 0;
+    letter-spacing: 3px
+}
+#div1, #div2 {
+    display: flex;
+    flex-wrap: wrap; 
+}
